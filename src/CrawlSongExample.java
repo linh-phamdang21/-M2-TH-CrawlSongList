@@ -11,7 +11,7 @@ public class CrawlSongExample {
     private static URL url;
     public static void main(String[] args) {
         try {
-            url = new URL("https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html");
+            url = new URL("https://www.nhaccuatui.com/bai-hat/nhac-tre-moi.html");
             Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
             scanner.useDelimiter("\\Z");
             String content = scanner.next();
